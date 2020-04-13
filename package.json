@@ -1,0 +1,29 @@
+{
+  "name": "soccer-stats",
+  "version": "0.0.2",
+  "description": "This package allows This package allows you to have the football statistics.",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.1.1",
+    "node-fetch": "^2.6.0",
+    "soccer-stats": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shadowv7/SoccerStats.git"
+  },
+  "keywords": [
+    "soccer"
+  ],
+  "author": "Shadowv7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shadowv7/SoccerStats/issues"
+  },
+  "homepage": "https://github.com/Shadowv7/SoccerStats#readme"
+}

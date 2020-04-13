@@ -8,9 +8,9 @@ npm i soccer-stats
 
 ```js
 const Soccer = require("soccer-stats")
-
-// Get best players
-Soccer.fetchBestPlayers().then((players) => {
+const Ssoccer = new Soccer({ lang : "en" }) // "en","fr","es" | default : "en"
+// Get best player
+soccer.fetchBestPlayers().then((players) => {
   console.log(players);
 })
 /*
